@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import Navigation from "./navbar/Navigation";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigation>
+        <h1 style={{padding:"20px"}}>
+          My name is Naiem Mohammad Al Foysal. My university name is Chittagong University of Engineering and Technology. I am from Meherpur, Bangladesh.
+        </h1>
+      </Navigation>
+    </Router>
   );
 }
 

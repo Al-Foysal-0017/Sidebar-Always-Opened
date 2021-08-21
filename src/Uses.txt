@@ -1,0 +1,10 @@
+---> Just copy the navbar and paste it in your components.
+---> Call the Navigation.jsx file.
+---> All body data shold be under 
+    <Navigation>............</Navigation>
+
+
+---> dependancies
+    npm install react-router-dom
+    npm install react-icons
+    npm i hamburger-react
